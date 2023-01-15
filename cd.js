@@ -5,7 +5,7 @@ module.exports = {
   description: 'Change working directory to a different directory.',
   async execute(command, prompt){
     const args = command.split(" ")
-    if(!fs.existsSync(args[1]) || !fs.lstatSync(args[1]).isDirectory()){
+    if(!fs.existsSync(args[1]) || !fs.lstatSync(args[1]).isDirectory() || typeof args[1] !== 'string'){
       console.log('Invalid directory.')
       prompt();
     }
