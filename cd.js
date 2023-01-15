@@ -8,6 +8,7 @@ module.exports = {
     if(!fs.existsSync(args[1]) || !fs.lstatSync(args[1]).isDirectory() || typeof args[1] !== 'string'){
       console.log('Invalid directory.')
       prompt();
+      return;
     }
     process.chdir(args[1]);
     prompt();
