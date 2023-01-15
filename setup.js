@@ -1,12 +1,11 @@
 const fs = require('fs')
 const unzipper = require('unzipper')
-const { prompt } = require('../index.js')
 const path = require('path')
 module.exports = {
   name: 'setup',
   usage: 'bot [path]',
   description: 'Sets up a discord bot in the specified path',
-  async execute(command) {
+  async execute(command, prompt) {
     const args = command.split(" ");
     if (args[1] !== 'bot') {
       console.log("Invalid subcommand. Usage: setup [subcommand] [path]");
