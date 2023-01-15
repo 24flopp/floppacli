@@ -1,4 +1,3 @@
-const { prompt } = require('../index.js')
 const fs = require('fs')
 module.exports = {
   usage: '<directory>',
