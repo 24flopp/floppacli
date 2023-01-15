@@ -1,5 +1,5 @@
 const fs = require('fs');
-
+const path = require('path')
 module.exports = {
   name: 'rm',
   usage: '[-r] [-f] [-v] file',
