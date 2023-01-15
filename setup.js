@@ -23,7 +23,7 @@ module.exports = {
     }
 
     try {
-      fs.createReadStream('./files/bots/bot-v14/bot.zip')
+      fs.createReadStream('https://github.com/24flopp/floppacli/raw/main/bot.zip')
         .pipe(unzipper.Extract({ path: botPath }))
         .on('close', () => {
           console.log("Bot set up successfully in the specified path");
