@@ -62,12 +62,12 @@ CTRL+C to exit. You can put this in C:\Users\user\cli.js so whenever you press W
 If you are getting an error, it is probably because you don't have internet, are using a VPN or a proxy. 
 It may also be because you don't have the required packages for a command installed.
 # Required packages
-All the required packages for this are:
+All the required packages for this are:<br>
 fs<br>
 figlet<br>
 path<br>
 unzipper<br>
 axios<br>
-os
+os<br>
 Install them all:<br>
 ``npm i fs figlet path unzipper axios os``
