@@ -57,5 +57,17 @@ module.exports = { prompt }
 ```
 You can edit it however you like, I added comments where you can edit stuff.
 Make sure you have [node.js](https://nodejs.org) installed!
-Run `node index.js` to see the CLI!
+Run `node index.js` to see the CLI.
 CTRL+C to exit. You can put this in C:\Users\user\cli.js so whenever you press Win+R (Windows) and type cli, this opens! 
+If you are getting an error, it is probably because you don't have internet, are using a VPN or a proxy. 
+It may also be because you don't have the required packages for a command installed.
+# Required packages
+All the required packages for this are:
+fs<br>
+figlet<br>
+path<br>
+unzipper<br>
+axios<br>
+os
+Install them all:<br>
+``npm i fs figlet path unzipper axios os``
