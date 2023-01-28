@@ -57,3 +57,5 @@ module.exports = { prompt }
 ```
 You can edit it however you like, I added comments where you can edit stuff.
 Make sure you have [node.js](https://nodejs.org) installed!
+Run `node index.js` to see the CLI!
+CTRL+C to exit. You can put this in C:\Users\user\cli.js so whenever you press Win+R (Windows) and type cli, this opens! 
